@@ -4,7 +4,7 @@ import { Play, RefreshCcw, Search, Server, Square, Terminal } from '@lucide/vue'
 import { fetchModels, startModel, stopModel } from './api';
 import type { GatewayModel, ModelRuntimeOperationResult, ModelStatus } from './types';
 
-const storedBaseUrl = localStorage.getItem('tenx.gateway.baseUrl') || 'http://127.0.0.1:8088';
+const storedBaseUrl = localStorage.getItem('tenx.gateway.baseUrl') || 'http://macstudio.tentest.cn:8088';
 const storedApiKey = localStorage.getItem('tenx.gateway.apiKey') || 'local-dev-key';
 
 const baseUrl = ref(storedBaseUrl);

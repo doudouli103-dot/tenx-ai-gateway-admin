@@ -30,13 +30,13 @@ npm run dev
 Open:
 
 ```text
-http://127.0.0.1:5173
+http://macstudio.tentest.cn:5173
 ```
 
 Default connection values in the page:
 
 ```text
-Gateway URL: http://127.0.0.1:8088
+Gateway URL: http://macstudio.tentest.cn:8088
 API Key:     local-dev-key
 ```
 
